@@ -1,0 +1,16 @@
+[
+{
+  "modid": "yzljcbans",
+  "name": "YZ_Ljc_ Bans",
+  "description": "Client-side simulation of Hypixel & Other Server ban screens.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["AndyOctopus", "YZ_Ljc_"],
+  "credits": "YZ_Ljc_ Network for Ban Screens",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
