@@ -1,5 +1,6 @@
 package com.andyoctopus.yzljcbans;
 
+import com.andyoctopus.yzljcbans.handlers.DevTagEventHandler;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -23,5 +24,6 @@ public class YzljcBansMod {
     public void init(FMLInitializationEvent event) {
         ClientCommandHandler.instance.registerCommand(new GetBanCommand(BAN_SEQUENCE_MANAGER));
         MinecraftForge.EVENT_BUS.register(BAN_SEQUENCE_MANAGER);
+        MinecraftForge.EVENT_BUS.register(new DevTagEventHandler());
     }
 }

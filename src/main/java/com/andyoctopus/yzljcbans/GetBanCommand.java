@@ -225,7 +225,7 @@ public class GetBanCommand extends CommandBase {
         if (durationMillis == Long.MAX_VALUE) {
             return "permanent";
         }
-        long adjusted = Math.max(0L, durationMillis - 1000L);
+        long adjusted = Math.max(0L, durationMillis - 2000L);
         return formatMillis(adjusted);
     }
 
