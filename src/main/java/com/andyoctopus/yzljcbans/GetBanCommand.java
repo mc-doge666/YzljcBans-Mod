@@ -208,7 +208,7 @@ public class GetBanCommand extends CommandBase {
     }
 
     private String generateBanId() {
-        final char[] charset = "ABCDEFG123456789".toCharArray();
+        final char[] charset = "ABCDEF123456789".toCharArray();
         StringBuilder builder = new StringBuilder(8);
         for (int i = 0; i < 8; i++) {
             builder.append(charset[RANDOM.nextInt(charset.length)]);
